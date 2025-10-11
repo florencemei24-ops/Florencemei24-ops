@@ -1,4 +1,3 @@
-
 Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif) My name is florence mei
 =====================================================================================================================================
 
@@ -27,3 +26,65 @@ src="https://img.shields.io/twitter/follow/meiflorence?logo=twitter&style=for-th
 <b>My GitHub Stats</b>
 
 <a href="http://www.github.com/florencemei"><img src="https://github-readme-stats.vercel.app/api?username=florencemei&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&show_icons=true" alt="florencemei's GitHub stats" /></a>
+
+## CSS Styles
+```css
+ /* --- my styles --- */
+body {
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    max-width: 800px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+legend {
+    font-weight: bold;
+    color: #555;
+    text align-center;
+    background: #f9f9f9;
+}
+
+label {
+    margin-right: 16px;
+}
+
+input, select, textarea {
+    margin: 4px 0 12px 0;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+```

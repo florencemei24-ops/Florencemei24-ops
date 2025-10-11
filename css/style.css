@@ -29,6 +29,8 @@ fieldset {
 legend {
     font-weight: bold;
     color: #555;
+    text align-center;
+    background: #f9f9f9;
 }
 
 label {

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en-us"></html>
+
+<html lang="en-us">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial scale=1.0">
@@ -18,9 +19,12 @@
                             <label for="Last Name">Last Name:
                                 <input type="text" name="lastName">
                             </label>
-                            <label for="Date of birth">Date of birth:
-                                <input type="date" id="dob" name="dob">
-                            </label>
+                            <label for=Date of birth:
+                            <div class="dob container">
+                            <input type="number" id="dob-day" name="day" placeholder="DD" min="1" max="31" required>
+                            <input type="number" id="dob-month" name="month" placeholder="MM" min="1" max="12" required>
+                            <input type="number" id="dob-year" name="year" placeholder="YYYY" min="1900" max="2025" required>
+                            </div>
                             <label for="Age">Age:
                                 <input type="number" name="age">
                             </label>
@@ -126,7 +130,7 @@
                                                                                             <textarea id="feedback"name="feedback"rows="4"cols="40"></textarea>"
                                                                                              <label for="suggestion">suggestion for improvement:</label><br>
                                                                                             <textarea id="suggestion"name="suggestion"rows="4"cols="40"></textarea>
-                                                                                        </fieldset>
+                                                                          </fieldset>
                                                                                         <legend> registration datetime</legend>
                                                                                         <label for="date&time">Registration datetime</label>
                                                                                         <input type="datetime"
