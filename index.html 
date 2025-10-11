@@ -1,29 +1,44 @@
 <!DOCTYPE html>
-<html lang="en-us"
+<html lang="en-us"></html>
 <head>
-    <meta charset="utf-8"
-    <meta name="viewport"content="width=device-width,initial scale=1.0">
-    <body>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
                 <h1> USER REGISTRATION FORM</h1>
                 <form accept="">
                     <fieldset>
                     <legend>personal information</legend>
-                        <label for="First Name">First Name:
-                            <input type="text"
-                        <label for="Last Name">Last Name:
-                            <input type="text">
-                    <label for="Date of birth">Date of birth:
-                                <input type="dates"id="dob"name="dob"
-                                <label for="Age">Age:
-                                    <input type="number"
-                        <label for="Gender">M<input type="radio">F<input type="radio">
-                            <label for="profile photo">profile photo:
-                                <input type="file"
-                            </fieldset>
+                    <div class="grid"
+                        <div>
+                            <label for="First Name">First Name:
+                                <input type="text" name="firstName">
+                            </label>
+                            <label for="Last Name">Last Name:
+                                <input type="text" name="lastName">
+                            </label>
+                            <label for="Date of birth">Date of birth:
+                                <input type="date" id="dob" name="dob">
+                            </label>
+                            <label for="Age">Age:
+                                <input type="number" name="age">
+                            </label>
+                            <label for="Gender">Gender:
+                                M <input type="radio" name="gender" value="M">
+                                F <input type="radio" name="gender" value="F">
+                            </label>
+                            <label for="profile photo">Profile photo:
+                                <input type="file" name="profilePhoto">
+                            </label>
+                        </div>
+                    </fieldset>
                                  <fieldset>
                                     <legend>Contact & Address Information</legend>
+                                    <div class="grid"
+                                        <div>
                                     <label for="Email address">Email address:
-                                        <input type="email"
+                                        <input type="email" name="email">
                                         <label for="Phone number">Phone number:
                                             <input type="tel"
                                             <label for="personal website">personal website:
@@ -44,9 +59,12 @@
                                                             <input type="text"
                                                             <label for="contact-time">preferred contact time:
                                                                 <input type="time"id="contact-time"name="contact-time"
+                                                            </div>
                                                             </fieldset>
                                                             <fieldset> 
                                                                 <legend>Preferences & interest</legend>
+                                                                <div class="grid"
+                                                                    <div>
                                                                 <label for="favorite color"> choose favorite color:</label>
                                                                 <input type="color" id="favoritecolor" nane="favoritecolor" value="#ff0000">
                                                                     </select>
@@ -58,9 +76,11 @@
                                                                                 <input type="week"
                                                                                 <label for="search keywords">search keywords:
                                                                                     <input type="search"
+                                                                                    </div>
                                                                                 </fieldst>
                                                                                 <fieldset>
                                                                                     <legend>Interest(select all that apply)</legend>
+                                                                                    <div class="grid"
                                                                                     <div>
                                                                                          <input type="checkbox"id="technology"Name="interest"value=technology
                                                                                             <label for="Technology">technology</label>
@@ -96,9 +116,12 @@
                                                                                         <input type="text"
                                                                                         <label for="confirm password"confirm password:
                                                                                         <input type="text"
+                                                                                     </dv>
                                                                                         </fieldset>
                                                                                         <fieldset>
                                                                                             <legend>Feedback & Additional Information</legend>
+                                                                                            <div class="grid">
+                                                                                                <div>
                                                                                             <label for="feedback">feedback & additional information:</label><br>
                                                                                             <textarea id="feedback"name="feedback"rows="4"cols="40"></textarea>"
                                                                                              <label for="suggestion">suggestion for improvement:</label><br>
@@ -166,8 +189,8 @@
 
 
 
-                                                                    
-    
+
+
 
 
 
